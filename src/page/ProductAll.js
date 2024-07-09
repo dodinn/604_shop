@@ -20,7 +20,7 @@ function ProductAll() {
   //useEffect(()=>{},[변수])//[]에 변수가 있으면 component가 실행될때 한번 실행하고 변수값이 바뀔때마다 함수가 실행
   useEffect(() => {
     getProducts();
-  },[]);
+  },[query]);
   
   return (
     <div>
